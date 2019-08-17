@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Proyecto</title>
+
+  <!-- CSS  -->
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+</head>
+
+<body>
+  <!-- Inicio de navbar  -->
+  <nav class="white" role="navigation">
+    <div class="nav-wrapper container">
+      <a id="logo-container" href="#" class="brand-logo">CROQUE SERVICE</a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="#Servicios"> Servicios </a></li>
+        <li><a href="#Quienes"> Quiénes somos </a></li>
+        <li><a href="#contactanos"> Contáctanos </a></li>
+      </ul>
+      <ul id="nav-mobile" class="sidenav">
+        
+        <li><a href="#Servicios"> Servicios </a></li>
+        <li><a href="#Quienes"> Quiénes somos </a></li>
+        <li><a href="#contactanos"> Contáctanos </a></li>
+      </ul>
+      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+
+  <!-- Banner de inicio  -->
+  <div id="index-banner" class="parallax-container">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <br><br>
+        <h1 class="header center blue-text text-lighten-2"> Croque Service</h1>
+        <div class="row center">
+          <h4 class="header col s12 dark"> Llenando pancitas una hora a la vez </h4>
+        </div>
+        
+        <br><br>
+
+      </div>
+    </div>
+    <div class="parallax"><img id="banner" src="banner 1.jpg" alt=""></div>
+  </div>
+
+  <!--   Servicios   -->
+
+  <div class="container">
+    <div class="section">
+      <br>
+      <h2 id="Servicios" class="row center">Servicios </h2>
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center blue-text"><i class="material-icons">laptop_mac</i></h2>
+            <h5 class="center"> Marketing digital </h5>
+
+            <p class="light">Recibe valiosos consejos para mejorar tu estrategia en línea, conoce más sobre las buenas
+              prácticas que puedes optimizar en tus procesos.</p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center blue-text"><i class="material-icons">palette</i></h2>
+            <h5 class="center"> Diseño Gráfico </h5>
+
+            <p class="light">¿El paquete adobe se ha vuelto tu peor enemigo? Un asesor te apoyará para resolver tus
+              problemas y sacar el máximo provecho a tus diseños.</p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center blue-text"><i class="material-icons"> monetization_on</i></h2>
+            <h5 class="center"> Finanzas </h5>
+
+            <p class="light">Aprende más sobre educación financiera y prepara tu futuro con las mejores inversiónes,
+              ahorros y presupuestos.</p>
+          </div>
+        </div>
+      </div>
+      <div class="row center">
+        <a href="#Contactanos" id="download-button" class="btn-large waves-effect waves-light blue lighten-1"> Quiero
+          asesoría </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Quienes somos -->
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h5 class="header col s12 light"> ¡Apadrina la esterilización y evitemos más animales en situación de calle!
+          </h5>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="gatitus.jpg" alt="Unsplashed background img 2"></div>
+  </div>
+
+  <div class="container">
+    <div class="section">
+
+      <div class="row">
+        <div class="col s12 center">
+          <h3><i class="mdi-content-send brown-text"></i></h3>
+          <h4 id="Quienes"> Quiénes somos </h4>
+          <p class="left-align light"> Somos un grupo de personas preocupadas por la situación actual de los animales de
+            compañia que se encuentran en situación de calle. Tratamos de aportar nuestro conocimiento a la comunidad
+            que busca asesoría y consultoría a un precio accesible. A cambio de croquetas o el apadrinamiento de una
+            esterilización se recibirán cierto número de horas de atención por parte de un especialista en la industria.
+          </p>
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+  <!-- Contáctanos  -->
+
+  <div id="formulario" class="container">
+    <h4 id="contactanos"> Contáctanos </h4>
+    <form method="POST" action="https://formspree.io/ale.ceviche@gmail.com">
+      <div>
+        <label for="nombre"> Nombre Completo</label>
+        <input name="nombre"> </input>
+      </div>
+      <div>
+        <label for="Email"> Email</label>
+        <input label="Email" type="email" name="email">
+      </div>
+      <div>
+        <label for="Mensaje"> Cuéntanos cómo quieres participar </label>
+        <textarea name="message"> </textarea>
+      </div>
+      <div class="row-center">
+        <button class="btn-small waves-effect waves-light blue lighten-1" type="submit"> Enviar </button>
+      </div>
+    </form>
+  </div>
+  <br>
+
+  <!-- Footer  -->
+  <div>
+    <footer class="page-footer blue">
+      <div class="container">
+        <div class="row">
+          <div class="col l6 s12">
+            <h5 class="white-text"> Sé parte de la solución </h5>
+            <p class="grey-text text-lighten-4"> Con tu contribución como asesor o donador, nos ayudas a mejorar la vida
+              de muchísimos animales en situación de calle! </p>
+          </div>
+          <div class="col l3 s12">
+            <h5 class="white-text">Servicios</h5>
+            <ul>
+              <li><a class="white-text" href="#!"> Marketing </a></li>
+              <li><a class="white-text" href="#!"> Finanzas</a></li>
+              <li><a class="white-text" href="#!"> Diseño Gráfico </a></li>
+ 
+            </ul>
+          </div>
+          <div class="col l3 s12">
+            <h5 class="white-text">Casos de éxito </h5>
+            <ul>
+              <li><a class="white-text" href="#!"> Marca Patito </a></li>
+              <li><a class="white-text" href="#!"> Acme Inc</a></li>
+              <li><a class="white-text" href="#!"> Rescates </a></li>
+
+            </ul>
+          </div>
+        </div>
+      </div>
+  </div>
+  </footer>
+  </div>
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+
+</body>
+
+</html>
